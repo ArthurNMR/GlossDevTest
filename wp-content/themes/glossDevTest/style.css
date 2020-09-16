@@ -1,0 +1,779 @@
+/*
+ Theme Name: glossDevTest
+ Author: Arthur Reyes
+ version: 1
+*/
+body {
+  font-family: Roboto;
+}
+
+/* EXTEND */
+/* PADDING AND MARGIN */
+footer .section-newsletter .newsletter-container .row .content, footer .section-newsletter .newsletter-container .row .newsletter-button, .page-home-container .section-team .team-container .row .team-list, .page-home-container .section-team .team-container .row .team-list .team-body {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+header .navigation .navigation-bar .nav-logo, header .navigation .navigation-bar .navigation-menu-container, footer .section-newsletter .newsletter-container, .page-home-container .section-home-banner .banner-container, .page-home-container .section-home-banner .banner-container .banner-body, .page-home-container .section-course .course-container, .page-home-container .section-about .about-container, .page-home-container .section-team .team-container {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/* PADDING AND MARGIN END */
+/* HEADER FONT */
+.page-home-container .section-about .about-container .row .about-content .content-body .content h2, .page-home-container .section-team .team-container .row .team-content .content-body .content h2 {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 35px;
+}
+
+footer .section-newsletter .newsletter-container .row .content h3, .page-home-container .section-course .course-container .row .course-content .content-body .content h2 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.page-home-container .section-team .team-container .row .team-list .team-body .row .team .row .team-details .details h3 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 25px;
+}
+
+/* HEADER FONT END */
+/* REGULAR FONT */
+.page-home-container .section-course .course-container .row .course-content .content-body .content p, .page-home-container .section-about .about-container .row .about-content .content-body .content p, .page-home-container .section-team .team-container .row .team-content .content-body .content p, .page-home-container .section-team .team-container .row .team-list .team-body .row .team .row .team-details .details p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+header .navigation .navigation-bar .navigation-menu-container .nav-list .signin-btn a .btn-sign, header .navigation .navigation-bar .mobile-nav-menu .side-bar .side-bar-container .mobile-signin-btn a .btn-sign, header .navigation .navigation-bar .navigation-menu-container .nav-list .menu-main-header-container ul li a, header .navigation .navigation-bar .mobile-nav-menu .side-bar .side-bar-container .menu-list .menu-main-header-container ul li a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+footer .copyright-container .copyright-content p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* REGULAR FONT END */
+/* IMAGES */
+.page-home-container .section-home-banner {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.page-home-container .section-course .course-container .row .course-img img, .page-home-container .section-about .about-container .row .about-img img, .page-home-container .section-team .team-container .row .team-list .team-body .row .team .row .team-profile img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+/* IMAGE END */
+/* ALIGNMENT */
+footer .section-newsletter .newsletter-container, footer .section-newsletter .newsletter-container .row .content h3, footer .copyright-container .copyright-content, .page-home-container .section-home-banner .banner-container .banner-body, .page-home-container .section-about .about-container .row .about-content .content-body, .page-home-container .section-course .course-container .row .course-content .content-body {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+
+footer .section-newsletter .newsletter-container, footer .section-newsletter .newsletter-container .row .content h3, footer .copyright-container .copyright-content, .page-home-container .section-home-banner .banner-container .banner-body, .page-home-container .section-about .about-container .row .about-content .content-body {
+  left: 0;
+}
+
+.page-home-container .section-course .course-container .row .course-content .content-body {
+  right: 0;
+}
+
+/* ALIGNMENT END */
+/* OTHERS */
+header .navigation .navigation-bar .navigation-menu-container .nav-list .menu-main-header-container ul li:hover, header .navigation .navigation-bar .navigation-menu-container .nav-list .menu-main-header-container ul .current_page_item, header .navigation .navigation-bar .mobile-nav-menu .side-bar .side-bar-container .menu-list .menu-main-header-container ul li:hover, header .navigation .navigation-bar .mobile-nav-menu .side-bar .side-bar-container .menu-list .menu-main-header-container ul .current_page_item {
+  border-bottom: 2px solid #d70646;
+}
+
+header .navigation .navigation-bar .navigation-menu-container .nav-list .menu-main-header-container ul li:hover a, header .navigation .navigation-bar .navigation-menu-container .nav-list .menu-main-header-container ul .current_page_item a, header .navigation .navigation-bar .mobile-nav-menu .side-bar .side-bar-container .menu-list .menu-main-header-container ul li:hover a, header .navigation .navigation-bar .mobile-nav-menu .side-bar .side-bar-container .menu-list .menu-main-header-container ul .current_page_item a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+}
+
+header .navigation .navigation-bar .navigation-menu-container .social-media .social-icon, header .navigation .navigation-bar .mobile-nav-menu .side-bar .side-bar-container .mobile-social-media .social-icon {
+  padding: 5px;
+  display: inline-block;
+}
+
+header .navigation .navigation-bar .navigation-menu-container .social-media .social-icon i, header .navigation .navigation-bar .mobile-nav-menu .side-bar .side-bar-container .mobile-social-media .social-icon i {
+  color: #d70646;
+}
+
+header .navigation .navigation-bar .navigation-menu-container .social-media .social-icon i:before, header .navigation .navigation-bar .mobile-nav-menu .side-bar .side-bar-container .mobile-social-media .social-icon i:before {
+  font-size: 18px;
+}
+
+header .navigation .navigation-bar .navigation-menu-container .social-media .social-icon i:hover, header .navigation .navigation-bar .mobile-nav-menu .side-bar .side-bar-container .mobile-social-media .social-icon i:hover {
+  cursor: pointer;
+  color: #000000;
+}
+
+header .navigation .navigation-bar .navigation-menu-container .nav-list .signin-btn a .btn-sign, header .navigation .navigation-bar .mobile-nav-menu .side-bar .side-bar-container .mobile-signin-btn a .btn-sign {
+  border: 2px solid #d70646;
+  padding: 7px 40px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #d70646;
+}
+
+header .navigation .navigation-bar .navigation-menu-container .nav-list .signin-btn a .btn-sign:hover, header .navigation .navigation-bar .mobile-nav-menu .side-bar .side-bar-container .mobile-signin-btn a .btn-sign:hover {
+  color: #000000;
+  border-color: #000000;
+  cursor: pointer;
+}
+
+/* EXTEND END */
+/* CLASS */
+.btn-general {
+  background-color: #d70646;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 2px solid #d70646;
+  color: #ffffff;
+  width: 250px;
+}
+
+.btn-general:hover {
+  background-color: #ffffff;
+  color: #d70646;
+  cursor: pointer;
+}
+
+/* CLASS END */
+@font-face {
+  font-family: Roboto;
+  src: url(assets/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(assets/fonts/Roboto/Roboto-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(assets/fonts/Roboto/Roboto-Black.ttf);
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(assets/fonts/Roboto/Roboto-Light.ttf);
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(assets/fonts/Roboto/Roboto-Thin.ttf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(assets/fonts/Roboto/Roboto-Medium.ttf);
+  font-weight: 600;
+}
+
+header {
+  display: block;
+  overflow: hidden;
+  height: 130px;
+  /* NAVIGATION BAR */
+}
+
+header .navigation {
+  padding-top: 20px;
+  height: 131px;
+  background-color: #ffffff;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  -webkit-transition: top 0.3s;
+  transition: top 0.3s;
+}
+
+header .navigation .navigation-bar {
+  overflow: hidden;
+  /* MOBILE RESPONSIVE SIDEBAR */
+  /* MOBILE RESPONSIVE SIDEBAR END */
+}
+
+header .navigation .navigation-bar .nav-logo {
+  float: left;
+  padding-top: 15px;
+}
+
+header .navigation .navigation-bar .nav-logo a img {
+  height: 60px;
+  width: auto;
+}
+
+header .navigation .navigation-bar .navigation-menu-container {
+  float: right;
+}
+
+header .navigation .navigation-bar .navigation-menu-container .social-media {
+  text-align: right;
+  padding: 0 20px;
+}
+
+header .navigation .navigation-bar .navigation-menu-container .nav-list {
+  text-align: right;
+}
+
+header .navigation .navigation-bar .navigation-menu-container .nav-list .menu-main-header-container {
+  display: inline-block;
+}
+
+header .navigation .navigation-bar .navigation-menu-container .nav-list .menu-main-header-container ul {
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+header .navigation .navigation-bar .navigation-menu-container .nav-list .menu-main-header-container ul li {
+  display: inline-block;
+  padding: 25px 20px;
+  cursor: pointer;
+}
+
+header .navigation .navigation-bar .navigation-menu-container .nav-list .menu-main-header-container ul li a {
+  color: #7e7e7e;
+}
+
+header .navigation .navigation-bar .navigation-menu-container .nav-list .signin-btn {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+header .navigation .navigation-bar .mobile-nav-menu {
+  display: none;
+}
+
+header .navigation .navigation-bar .mobile-nav-menu .toggle-btn {
+  position: absolute;
+  top: 20px;
+  right: 5%;
+}
+
+header .navigation .navigation-bar .mobile-nav-menu .toggle-btn a i {
+  padding: 5px;
+}
+
+header .navigation .navigation-bar .mobile-nav-menu .toggle-btn a i:before {
+  font-size: 40px;
+  color: #d70646;
+}
+
+header .navigation .navigation-bar .mobile-nav-menu .side-bar {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 80vw;
+  height: 100vh;
+  background-color: #ffffff;
+  padding: 5%;
+  -webkit-transition: all 500ms linear;
+  transition: all 500ms linear;
+}
+
+header .navigation .navigation-bar .mobile-nav-menu .side-bar .side-bar-container {
+  position: relative;
+  height: 100%;
+}
+
+header .navigation .navigation-bar .mobile-nav-menu .side-bar .side-bar-container .mobile-social-media {
+  float: right;
+}
+
+header .navigation .navigation-bar .mobile-nav-menu .side-bar .side-bar-container .mobile-social-media .social-icon i:before {
+  font-size: 25px;
+}
+
+header .navigation .navigation-bar .mobile-nav-menu .side-bar .side-bar-container .menu-list {
+  padding-top: 30px;
+}
+
+header .navigation .navigation-bar .mobile-nav-menu .side-bar .side-bar-container .menu-list .menu-main-header-container {
+  display: inline-block;
+  width: 100%;
+}
+
+header .navigation .navigation-bar .mobile-nav-menu .side-bar .side-bar-container .menu-list .menu-main-header-container ul {
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+header .navigation .navigation-bar .mobile-nav-menu .side-bar .side-bar-container .menu-list .menu-main-header-container ul li {
+  width: 70%;
+  padding: 25px 20px;
+  cursor: pointer;
+}
+
+header .navigation .navigation-bar .mobile-nav-menu .side-bar .side-bar-container .menu-list .menu-main-header-container ul li a {
+  color: #7e7e7e;
+  font-size: 20px;
+}
+
+header .navigation .navigation-bar .mobile-nav-menu .side-bar .side-bar-container .mobile-signin-btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
+
+header .navigation .navigation-bar .mobile-nav-menu .side-bar .side-bar-container .mobile-signin-btn a .btn-sign {
+  width: 70%;
+  padding: 15px 25px;
+}
+
+header .navigation .navigation-bar .mobile-nav-menu .side-bar.active {
+  left: 0;
+}
+
+footer {
+  /* NEWSLETTER */
+  /* COPYRIGHT */
+}
+
+footer .section-newsletter {
+  background-color: #d70646;
+  height: 20vh;
+  min-height: 150px;
+  position: relative;
+}
+
+footer .section-newsletter .newsletter-container .row .content {
+  position: relative;
+}
+
+footer .section-newsletter .newsletter-container .row .content h3 {
+  color: #ffffff;
+}
+
+footer .section-newsletter .newsletter-container .row .newsletter-button a {
+  float: right;
+}
+
+footer .section-newsletter .newsletter-container .row .newsletter-button a button {
+  font-size: 25px;
+  padding: 15px 20px;
+  width: 300px;
+  border-color: #ffffff;
+}
+
+footer .copyright-container {
+  height: 10vh;
+  min-height: 75;
+  position: relative;
+}
+
+footer .copyright-container .copyright-content {
+  text-align: center;
+}
+
+footer .copyright-container .copyright-content p {
+  margin-bottom: 0;
+  color: #7e7e7e;
+}
+
+.page-home-container {
+  /* BANNER SECTION */
+  /* COURSE SECTION */
+  /* ABOUT SECTION */
+  /* TEAM SECTION */
+}
+
+.page-home-container .section-home-banner .banner-container {
+  height: 70vh;
+  min-height: 500px;
+  position: relative;
+}
+
+.page-home-container .section-home-banner .banner-container .banner-body .banner-content {
+  padding-bottom: 40px;
+  color: #ffffff;
+}
+
+.page-home-container .section-home-banner .banner-container .banner-body .banner-content h1 {
+  font-weight: 600;
+  font-size: 65px;
+  padding-bottom: 40px;
+}
+
+.page-home-container .section-home-banner .banner-container .banner-body .banner-content p {
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.page-home-container .section-home-banner .banner-container .banner-body .banner-button a button {
+  width: 100%;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.page-home-container .section-course .course-container {
+  height: 50vh;
+  min-height: 400px;
+}
+
+.page-home-container .section-course .course-container .row .course-img img {
+  height: auto;
+}
+
+.page-home-container .section-course .course-container .row .course-content {
+  position: relative;
+}
+
+.page-home-container .section-course .course-container .row .course-content .content-body {
+  padding-left: 10%;
+}
+
+.page-home-container .section-course .course-container .row .course-content .content-body .content {
+  padding-bottom: 10px;
+}
+
+.page-home-container .section-course .course-container .row .course-content .content-body .content h2 {
+  padding-bottom: 10px;
+  color: #000000;
+}
+
+.page-home-container .section-course .course-container .row .course-content .content-body .content p {
+  color: #7e7e7e;
+}
+
+.page-home-container .section-course .course-container .row .course-content .content-body .course-button a button {
+  font-size: 18px;
+  padding: 15px 50px;
+}
+
+.page-home-container .section-about {
+  background-color: #202020;
+}
+
+.page-home-container .section-about .about-container {
+  height: 50vh;
+  min-height: 400px;
+}
+
+.page-home-container .section-about .about-container .row .about-content {
+  position: relative;
+}
+
+.page-home-container .section-about .about-container .row .about-content .content-body {
+  padding-right: 10%;
+}
+
+.page-home-container .section-about .about-container .row .about-content .content-body .content {
+  padding-bottom: 10px;
+}
+
+.page-home-container .section-about .about-container .row .about-content .content-body .content h2 {
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+
+.page-home-container .section-about .about-container .row .about-content .content-body .content p {
+  color: #7e7e7e;
+}
+
+.page-home-container .section-about .about-container .row .about-content .content-body .about-button a button {
+  font-size: 18px;
+  padding: 15px 50px;
+}
+
+.page-home-container .section-team {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+.page-home-container .section-team .team-container {
+  height: 65vh;
+  min-height: 600px;
+}
+
+.page-home-container .section-team .team-container .row .team-content {
+  text-align: center;
+}
+
+.page-home-container .section-team .team-container .row .team-content .content-body .content {
+  padding-bottom: 20px;
+}
+
+.page-home-container .section-team .team-container .row .team-content .content-body .content h2 {
+  padding-bottom: 20px;
+  color: #000000;
+}
+
+.page-home-container .section-team .team-container .row .team-content .content-body .content p {
+  color: #7e7e7e;
+}
+
+.page-home-container .section-team .team-container .row .team-list .team-body .row .team .row .team-details {
+  text-align: center;
+}
+
+.page-home-container .section-team .team-container .row .team-list .team-body .row .team .row .team-details .details h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  color: #000000;
+}
+
+.page-home-container .section-team .team-container .row .team-list .team-body .row .team .row .team-details .details p {
+  color: #7e7e7e;
+}
+
+/*
+    ##Device = Desktops
+    ##Screen = 1919px  to higher resolution desktops
+  */
+/*
+    ##Device = Desktops
+    ##Screen = 1439px  to higher resolution desktops
+  */
+/*
+    ##Device = Desktops
+    ##Screen = 1281px to higher resolution desktops
+  */
+/*
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  header .navigation .navigation-bar .navigation-menu-container .nav-list .menu-main-header-container ul li {
+    padding: 15px;
+  }
+  /* %padding-5 */
+  header .navigation .navigation-bar .nav-logo,
+  header .navigation .navigation-bar .navigation-menu-container,
+  footer .section-newsletter .newsletter-container,
+  .page-home-container .section-home-banner .banner-container,
+  .page-home-container .section-home-banner .banner-container .banner-body,
+  .page-home-container .section-course .course-container,
+  .page-home-container .section-about .about-container,
+  .page-home-container .section-team .team-container {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}
+
+/*
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* MOBILE NAVIGATION */
+  #mobile_menu {
+    display: block;
+  }
+  #desktop_menu {
+    display: none;
+  }
+  header .navigation .navigation-bar .nav-logo {
+    float: unset;
+  }
+  #side_bar_menu {
+    width: 50vw;
+  }
+  .page-home-container .section-course .course-container {
+    height: 20vh;
+    min-height: 400px;
+  }
+  .page-home-container .section-about .about-container {
+    height: 35vh;
+    min-height: 500px;
+  }
+  .page-home-container .section-team .team-container {
+    height: unset;
+    min-height: unset;
+    overflow: hidden;
+  }
+  .page-home-container .section-team .team-container .row .team-list .team-body .row .team {
+    padding: 10px;
+  }
+  footer .section-newsletter {
+    height: unset;
+    min-height: unset;
+    position: relative;
+    overflow: hidden;
+    padding: 5%;
+  }
+  footer .section-newsletter .newsletter-container {
+    position: unset;
+    width: 100%;
+    top: unset;
+    -webkit-transform: unset;
+            transform: unset;
+  }
+  footer .section-newsletter .newsletter-container .row .content {
+    height: 150px;
+    text-align: center;
+  }
+  footer .section-newsletter .newsletter-container .row .newsletter-button {
+    text-align: center;
+  }
+  footer .section-newsletter .newsletter-container .row .newsletter-button a {
+    float: unset;
+  }
+}
+
+/*
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+/*
+    ##Device = Mobiles
+    ##Screen = B/w 768px under
+  */
+@media (max-width: 768px) {
+  /* MOBILE NAVIGATION */
+  #mobile_menu {
+    display: block;
+  }
+  #desktop_menu {
+    display: none;
+  }
+  header .navigation .navigation-bar .nav-logo {
+    float: unset;
+  }
+  .page-home-container .section-home-banner .banner-container {
+    min-height: 600px;
+  }
+  .page-home-container .section-course .course-container {
+    padding: 5%;
+    height: unset;
+    min-height: unset;
+    overflow: hidden;
+    position: relative;
+  }
+  .page-home-container .section-course .course-container .row .course-content .content-body {
+    padding-left: 5%;
+    padding-right: 5%;
+    top: unset;
+    right: unset;
+    position: relative;
+    -webkit-transform: unset;
+            transform: unset;
+  }
+  .page-home-container .section-course .course-container .row .course-content .content-body .course-button a button {
+    width: 100%;
+  }
+  .page-home-container .section-about .about-container {
+    padding: 5%;
+    height: unset;
+    min-height: unset;
+    overflow: hidden;
+    position: relative;
+  }
+  .page-home-container .section-about .about-container .row .about-content .content-body {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    top: unset;
+    right: unset;
+    position: relative;
+    -webkit-transform: unset;
+            transform: unset;
+  }
+  .page-home-container .section-about .about-container .row .about-content .content-body .about-button a button {
+    width: 100%;
+  }
+  .page-home-container .section-team .team-container {
+    position: relative;
+    overflow: hidden;
+    height: unset;
+  }
+  .page-home-container .section-team .team-container .row .team-list .team-body .row .team {
+    padding: 5%;
+  }
+  .page-home-container .section-team .team-container .row .team-list .team-body .row .team .row .team-details {
+    position: relative;
+  }
+  .page-home-container .section-team .team-container .row .team-list .team-body .row .team .row .team-details .details {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+  }
+  footer .section-newsletter {
+    height: unset;
+    min-height: unset;
+    position: relative;
+    overflow: hidden;
+    padding: 5%;
+  }
+  footer .section-newsletter .newsletter-container {
+    position: unset;
+    width: 100%;
+    top: unset;
+    -webkit-transform: unset;
+            transform: unset;
+  }
+  footer .section-newsletter .newsletter-container .row .content {
+    height: 150px;
+    text-align: center;
+  }
+  footer .section-newsletter .newsletter-container .row .newsletter-button {
+    text-align: center;
+  }
+  footer .section-newsletter .newsletter-container .row .newsletter-button a {
+    float: unset;
+  }
+}
+
+/*
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+/*
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+@media (min-width: 320px) and (max-width: 480px) {
+  .side-bar .side-bar-container .menu-list .menu-main-header-container ul li {
+    width: 100%;
+  }
+  .page-home-container .section-home-banner .banner-container .banner-body .banner-content {
+    padding-bottom: 20px;
+  }
+  .page-home-container .section-home-banner .banner-container .banner-body .banner-content h1 {
+    font-size: 45px;
+    padding-bottom: 20px;
+  }
+  .page-home-container .section-home-banner .banner-container .banner-body .banner-content p {
+    font-size: 20px;
+  }
+  .page-home-container .section-home-banner .banner-container .banner-body .banner-button a button {
+    font-size: 25px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

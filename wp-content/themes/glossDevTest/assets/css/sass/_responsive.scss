@@ -1,0 +1,380 @@
+/*
+    ##Device = Desktops
+    ##Screen = 1919px  to higher resolution desktops
+  */
+@media (min-width: 1919px) {
+  //CSS
+}
+
+/*
+    ##Device = Desktops
+    ##Screen = 1439px  to higher resolution desktops
+  */
+@media (min-width: 1439px) {
+  //CSS
+}
+
+/*
+    ##Device = Desktops
+    ##Screen = 1281px to higher resolution desktops
+  */
+@media (min-width: 1281px) {
+  //CSS
+}
+
+/*
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  //CSS
+
+  //NAVIGATION MENU
+
+  header {
+    .navigation {
+      .navigation-bar {
+        .navigation-menu-container {
+          .nav-list {
+            .menu-main-header-container {
+              ul {
+                li {
+                  padding: 15px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* %padding-5 */
+  header .navigation .navigation-bar .nav-logo,
+  header .navigation .navigation-bar .navigation-menu-container,
+  footer .section-newsletter .newsletter-container,
+  .page-home-container .section-home-banner .banner-container,
+  .page-home-container .section-home-banner .banner-container .banner-body,
+  .page-home-container .section-course .course-container,
+  .page-home-container .section-about .about-container,
+  .page-home-container .section-team .team-container {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}
+
+/*
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+@media (min-width: 768px) and (max-width: 1024px) {
+  //CSS
+
+  /* MOBILE NAVIGATION */
+  #mobile_menu {
+    display: block;
+  }
+  #desktop_menu {
+    display: none;
+  }
+
+  header {
+    .navigation {
+      .navigation-bar {
+        .nav-logo {
+          float: unset;
+        }
+      }
+    }
+  }
+
+  #side_bar_menu {
+    width: 50vw;
+  }
+
+  //HOMEPAGE
+  .page-home-container {
+    .section-course {
+      .course-container {
+        height: 20vh;
+        min-height: 400px;
+      }
+    }
+
+    .section-about {
+      .about-container {
+        height: 35vh;
+        min-height: 500px;
+      }
+    }
+
+    .section-team {
+      .team-container {
+        height: unset;
+        min-height: unset;
+        overflow: hidden;
+        .row {
+          .team-list {
+            .team-body {
+              .row {
+                .team {
+                  padding: 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //FOOTER
+  footer {
+    .section-newsletter {
+      height: unset;
+      min-height: unset;
+      position: relative;
+      overflow: hidden;
+      padding: 5%;
+      .newsletter-container {
+        position: unset;
+        width: 100%;
+        top: unset;
+        transform: unset;
+        .row {
+          .content {
+            height: 150px;
+            text-align: center;
+          }
+          .newsletter-button {
+            text-align: center;
+            a {
+              float: unset;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  //CSS
+}
+
+/*
+    ##Device = Mobiles
+    ##Screen = B/w 768px under
+  */
+@media (max-width: 768px) {
+  /* MOBILE NAVIGATION */
+  #mobile_menu {
+    display: block;
+  }
+  #desktop_menu {
+    display: none;
+  }
+
+  header {
+    .navigation {
+      .navigation-bar {
+        .nav-logo {
+          float: unset;
+        }
+      }
+    }
+  }
+
+  //HOME PAGE
+  .page-home-container {
+    .section-home-banner {
+      .banner-container {
+        min-height: 600px;
+      }
+    }
+
+    .section-course {
+      .course-container {
+        padding: 5%;
+        height: unset;
+        min-height: unset;
+        overflow: hidden;
+        position: relative;
+        .row {
+          .course-content {
+            .content-body {
+              padding-left: 5%;
+              padding-right: 5%;
+              top: unset;
+              right: unset;
+              position: relative;
+              transform: unset;
+
+              .course-button {
+                a {
+                  button {
+                    width: 100%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .section-about {
+      .about-container {
+        padding: 5%;
+        height: unset;
+        min-height: unset;
+        overflow: hidden;
+        position: relative;
+        .row {
+          .about-content {
+            .content-body {
+              padding-left: 5%;
+              padding-right: 5%;
+              padding-bottom: 5%;
+              top: unset;
+              right: unset;
+              position: relative;
+              transform: unset;
+              .about-button {
+                a {
+                  button {
+                    width: 100%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .section-team {
+      .team-container {
+        position: relative;
+        overflow: hidden;
+        height: unset;
+        .row {
+          .team-list {
+            .team-body {
+              .row {
+                .team {
+                  padding: 5%;
+                  .row {
+                    .team-details {
+                      position: relative;
+                      .details {
+                        position: absolute;
+                        width: 100%;
+                        top: 50%;
+                        left: 0;
+                        transform: translateY(-50%);
+                        -webkit-transform: translateY(-50%);
+                        -ms-transform: translateY(-50%);
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //FOOTER
+  footer {
+    .section-newsletter {
+      height: unset;
+      min-height: unset;
+      position: relative;
+      overflow: hidden;
+      padding: 5%;
+      .newsletter-container {
+        position: unset;
+        width: 100%;
+        top: unset;
+        transform: unset;
+        .row {
+          .content {
+            height: 150px;
+            text-align: center;
+          }
+          .newsletter-button {
+            text-align: center;
+            a {
+              float: unset;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+@media (min-width: 481px) and (max-width: 767px) {
+  //CSS
+}
+
+/*
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+@media (min-width: 320px) and (max-width: 480px) {
+  //CSS
+
+  //HEADER
+
+  .side-bar {
+    .side-bar-container {
+      .menu-list {
+        .menu-main-header-container {
+          ul {
+            li {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+  //HOMEPAGE
+  .page-home-container {
+    .section-home-banner {
+      .banner-container {
+        .banner-body {
+          .banner-content {
+            padding-bottom: 20px;
+            h1 {
+              font-size: 45px;
+              padding-bottom: 20px;
+            }
+            p {
+              font-size: 20px;
+            }
+          }
+          .banner-button {
+            a {
+              button {
+                font-size: 25px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

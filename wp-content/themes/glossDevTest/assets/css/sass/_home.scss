@@ -1,0 +1,193 @@
+.page-home-container {
+
+  /* BANNER SECTION */
+  .section-home-banner {
+    @extend %background-image;
+    .banner-container {
+      height: 70vh;
+      min-height: 500px;
+      position: relative;
+      @extend %padding-5;
+      .banner-body {
+        @extend %padding-5;
+        @extend %vertically-align-left;
+        .banner-content {
+          padding-bottom: 40px;
+          color: #ffffff;
+          h1 {
+            font-weight: 600;
+            font-size: 65px;
+            padding-bottom: 40px;
+          }
+          p {
+            font-weight: normal;
+            font-size: 25px;
+            line-height: 30px;
+          }
+        }
+        .banner-button {
+          a {
+            button {
+              width: 100%;
+              font-size: 30px;
+              padding: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* COURSE SECTION */
+  .section-course {
+    .course-container {
+      height: 50vh;
+      min-height: 400px;
+      @extend %padding-5;
+      .row {
+        .course-img {
+          img {
+            @extend %img-full;
+            height: auto;
+          }
+        }
+        .course-content {
+          position: relative;
+          .content-body {
+            padding-left: 10%;
+            @extend %vertically-align-right;
+            .content {
+              padding-bottom: 10px;
+              h2 {
+                @extend %header3-font;
+                padding-bottom: 10px;
+                color: #000000;
+              }
+              p {
+                @extend %regular-font;
+                color: #7e7e7e;
+              }
+            }
+            .course-button {
+              a {
+                button {
+                  font-size: 18px;
+                  padding: 15px 50px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* ABOUT SECTION */
+  .section-about {
+    background-color: #202020;
+    .about-container {
+      height: 50vh;
+      min-height: 400px;
+      @extend %padding-5;
+      .row {
+        .about-content {
+          position: relative;
+          .content-body {
+            padding-right: 10%;
+            @extend %vertically-align-left;
+            .content {
+              padding-bottom: 10px;
+              h2 {
+                @extend %header2-font;
+                padding-bottom: 10px;
+                color: #ffffff;
+              }
+              p {
+                @extend %regular-font;
+                color: #7e7e7e;
+              }
+            }
+            .about-button {
+              a {
+                button {
+                  font-size: 18px;
+                  padding: 15px 50px;
+                }
+              }
+            }
+          }
+        }
+        .about-img {
+          img {
+            @extend %img-full;
+          }
+        }
+      }
+    }
+  }
+
+  /* TEAM SECTION */
+  .section-team {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+    .team-container {
+      height: 65vh;
+      min-height: 600px;
+      @extend %padding-5;
+      .row {
+        .team-content {
+          text-align: center;
+          .content-body {
+            .content {
+              padding-bottom: 20px;
+              h2 {
+                @extend %header2-font;
+                padding-bottom: 20px;
+                color: #000000;
+              }
+              p {
+                @extend %regular-font;
+                color: #7e7e7e;
+              }
+            }
+          }
+        }
+        .team-list {
+          @extend %no-padding;
+          .team-body {
+            @extend %no-padding;
+            .row {
+              .team {
+                .row {
+                  .team-profile {
+                    img {
+                      @extend %img-full;
+                    }
+                  }
+                  .team-details {
+                    text-align: center;
+                    .details {
+                      h3 {
+                        @extend %header4-font;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        margin-bottom: 0;
+                        color: #000000;
+                      }
+                      p {
+                        @extend %regular-font;
+                        color: #7e7e7e;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+footer {
+  /* NEWSLETTER */
+  .section-newsletter {
+    background-color: #d70646;
+    height: 20vh;
+    min-height: 150px;
+    position: relative;
+    .newsletter-container {
+      @extend %padding-5;
+      @extend %vertically-align-left;
+      .row {
+        .content {
+          position: relative;
+          @extend %no-padding;
+          h3 {
+            @extend %header3-font;
+            @extend %vertically-align-left;
+            color: #ffffff;
+          }
+        }
+        .newsletter-button {
+          @extend %no-padding;
+          a {
+            float: right;
+            button {
+              font-size: 25px;
+              padding: 15px 20px;
+              width: 300px;
+              border-color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+  /* COPYRIGHT */
+  .copyright-container {
+    height: 10vh;
+    min-height: 75;
+    position: relative;
+    .copyright-content {
+      text-align: center;
+      @extend %vertically-align-left;
+      p {
+        @extend %regular-font-xsmall;
+        margin-bottom: 0;
+        color: #7e7e7e;
+      }
+    }
+  }
+}

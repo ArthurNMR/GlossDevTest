@@ -1,0 +1,163 @@
+header {
+  display: block;
+  overflow: hidden;
+  height: 130px;
+
+  /* NAVIGATION BAR */
+  .navigation {
+    padding-top: 20px;
+    height: 131px;
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    transition: top 0.3s;
+    .navigation-bar {
+      overflow: hidden;
+      .nav-logo {
+        float: left;
+        padding-top: 15px;
+        @extend %padding-5;
+        a {
+          img {
+            height: 60px;
+            width: auto;
+          }
+        }
+      }
+
+      .navigation-menu-container {
+        float: right;
+        @extend %padding-5;
+        .social-media {
+          text-align: right;
+          padding: 0 20px;
+          .social-icon {
+            @extend %social-icon;
+          }
+        }
+        .nav-list {
+          text-align: right;
+          .menu-main-header-container {
+            display: inline-block;
+            ul {
+              list-style: none;
+              margin-bottom: 0;
+              padding-left: 0;
+              li {
+                display: inline-block;
+                padding: 25px 20px;
+                cursor: pointer;
+                a {
+                  @extend %regular-font-small;
+                  color: #7e7e7e;
+                }
+                &:hover {
+                  @extend %active-menu;
+                }
+              }
+              .current_page_item {
+                @extend %active-menu;
+              }
+            }
+          }
+          .signin-btn {
+            display: inline-block;
+            padding-right: 20px;
+            @extend %signin-btn;
+          }
+        }
+      }
+
+      /* MOBILE RESPONSIVE SIDEBAR */
+      .mobile-nav-menu {
+        display: none;
+        .toggle-btn {
+          position: absolute;
+          top: 20px;
+          right: 5%;
+          a {
+            i {
+              padding: 5px;
+              &:before {
+                font-size: 40px;
+                color: #d70646;
+              }
+            }
+          }
+        }
+        .side-bar {
+          position: fixed;
+          top: 0;
+          left: -100%;
+          width: 80vw;
+          height: 100vh;
+          background-color: #ffffff;
+          padding: 5%;
+          transition: all 500ms linear;
+          .side-bar-container {
+            position: relative;
+            height: 100%;
+            .mobile-social-media {
+              float: right;
+              .social-icon {
+                @extend %social-icon;
+                i {
+                  &:before {
+                    font-size: 25px;
+                  }
+                }
+              }
+            }
+            .menu-list {
+              padding-top: 30px;
+              .menu-main-header-container {
+                display: inline-block;
+                width: 100%;
+                ul {
+                  list-style: none;
+                  margin-bottom: 0;
+                  padding-left: 0;
+                  li {
+                    width: 70%;
+                    padding: 25px 20px;
+                    cursor: pointer;
+                    a {
+                      @extend %regular-font-small;
+                      color: #7e7e7e;
+                      font-size: 20px;
+                    }
+                    &:hover {
+                      @extend %active-menu;
+                    }
+                  }
+                  .current_page_item {
+                    @extend %active-menu;
+                  }
+                }
+              }
+            }
+            .mobile-signin-btn {
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              text-align: center;
+              width: 100%;
+              @extend %signin-btn;
+              a {
+                .btn-sign {
+                  width: 70%;
+                  padding: 15px 25px;
+                }
+              }
+            }
+          }
+        }
+        .side-bar.active {
+          left: 0;
+        }
+      }
+      /* MOBILE RESPONSIVE SIDEBAR END */
+    }
+  }
+}
